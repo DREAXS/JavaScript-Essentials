@@ -23,9 +23,9 @@ class Admin extends User {
   }
 }
 
-const userOne = new User('can', 'ccc@mail.com');
-const userTwo = new User('alper', 'xyz@mail.com');
-const userThree = new Admin('osman', 'xyzt@mail.com');
+const userOne = new User("can", "ccc@mail.com");
+const userTwo = new User("alper", "xyz@mail.com");
+const userThree = new Admin("osman", "xyzt@mail.com");
 
 let users = [userOne, userTwo, userThree];
 userThree.deleteUser(userOne);

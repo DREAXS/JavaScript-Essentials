@@ -1,6 +1,6 @@
 const userOne = {
-  username: 'Alper',
-  email: 'xyz@mail.com',
+  username: "Alper",
+  email: "xyz@mail.com",
   login() {
     console.log(`${this.username} giriş yaptı`);
   },
@@ -13,8 +13,8 @@ console.log(userOne.email, userOne.username);
 userOne.login();
 
 const userTwo = {
-  username: 'Can',
-  email: 'can_boz@mail.com',
+  username: "Can",
+  email: "can_boz@mail.com",
   login() {
     console.log(`${this.username} giriş yaptı`);
   },
@@ -25,4 +25,3 @@ const userTwo = {
 
 console.log(userTwo.email, userTwo.username);
 userTwo.login();
-
